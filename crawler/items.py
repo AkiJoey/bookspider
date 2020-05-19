@@ -8,7 +8,16 @@
 import scrapy
 
 
-class CrawlerItem(scrapy.Item):
+class BookItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    isbn = scrapy.Field()
+    cover = scrapy.Field()
+    title = scrapy.Field()
+    author = scrapy.Field()
+    press = scrapy.Field()
+    date = scrapy.Field()
+    page = scrapy.Field()
+    summary = scrapy.Field()
+    
     pass
