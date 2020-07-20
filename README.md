@@ -1,6 +1,6 @@
 # Bookspider
 
-A scrapy project for book information.
+Scrapy project for book information.
 
 ## Environment
 
