@@ -1,6 +1,11 @@
-# BookCrawler
+# Bookspider
 
 A scrapy project for book information.
+
+## Environment
+
+- `mysql` - Data persistence.
+- `redis` - Avoidance of repetition.
 
 ## Usage
 
